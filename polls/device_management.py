@@ -10,8 +10,8 @@ from iothub_service_client_args import get_iothub_opt, OptionError
 
 # String containing Hostname, SharedAccessKeyName & SharedAccessKey in the format:
 # "HostName=<host_name>;SharedAccessKeyName=<SharedAccessKeyName>;SharedAccessKey=<SharedAccessKey>"
-CONNECTION_STRING = "HostName=IoTpy.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=B29atBPWLBqQXKt0nAenWOvGpEbQVJNZpK6mnb878j4="
-DEVICE_ID = "PetitPython_"
+CONNECTION_STRING = "[YOURCONNECTIONSTRING]"
+DEVICE_ID = "[YOURDEVICEID]"
 
 
 def print_device_info(title, iothub_device):

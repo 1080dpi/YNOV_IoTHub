@@ -2,7 +2,7 @@
 #!/usr/bin/python2.7
 import base64, urllib2, json, hmac, hashlib, time, requests, urllib, ssl
 
-connectionString = 'HostName=IoTpy.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=B29atBPWLBqQXKt0nAenWOvGpEbQVJNZpK6mnb878j4='
+connectionString = 'Key=B29atBPWLBqQXKt0nAenWOvGpEbQVJNZpK6mnb878j4='
 deviceId = 'PetitPython'
 
 class D2CMsgSender():
